@@ -7,7 +7,7 @@ require 'middleman-targets/version'
 # I'm adjusting the minimum requirement to the first release incorporating
 # that change.
 
-mm_needed = ['~> 4.3.0', '>= 4.3.7']
+mm_needed = '>= 4.3.7'
 
 # We should work with any 2.0 version of Ruby, but I'm no longer testing them
 # for regressions. Version 2.6.0 goes back to December 2018, and is a suitable
@@ -16,7 +16,7 @@ mm_needed = ['~> 4.3.0', '>= 4.3.7']
 # Currently no released version of Middleman works with Ruby 3, so until that is
 # resolved, We will only support 2.6 up to and not including Ruby 3.0.
 
-rb_needed = ['~> 2.0', '>= 2.6']
+rb_needed = '>= 2.6'
 
 
 Gem::Specification.new do |s|
